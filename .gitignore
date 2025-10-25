@@ -1,0 +1,27 @@
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+
+# CUDA specific
+*.cubin
+*.ptx
+*.fatbin
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/tmp/
+/build/

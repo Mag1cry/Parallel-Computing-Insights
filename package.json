@@ -1,0 +1,56 @@
+{
+  "name": "parallel-computing-insights",
+  "version": "1.0.0",
+  "description": "从第一性原理探索GPU并行计算的核心范式 - 验证分治思想、GPU并行、数学积分的计算范式统一性",
+  "main": "README.md",
+  "scripts": {
+    "build": "./scripts/build_all.sh",
+    "build-windows": "scripts\\build_windows.bat",
+    "clean": "rm -rf bin/*",
+    "test": "echo \"运行各个实验程序进行验证\" && ./bin/simple_add && ./bin/array_add && ./bin/integration_fixed"
+  },
+  "keywords": [
+    "cuda",
+    "parallel-computing",
+    "numerical-integration",
+    "gpu-programming",
+    "divide-and-conquer",
+    "high-performance-computing"
+  ],
+  "author": {
+    "name": "Mag1cry",
+    "email": "your-email@example.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/parallel-computing-insights.git"
+  },
+  "homepage": "https://github.com/your-username/parallel-computing-insights#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/parallel-computing-insights/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "files": [
+    "001-CUDA-Integration/",
+    "Concepts/",
+    "scripts/",
+    "docs/",
+    "README.md",
+    "LICENSE",
+    ".gitignore"
+  ],
+  "contributors": [],
+  "cpu": [
+    "x64"
+  ],
+  "os": [
+    "linux",
+    "win32"
+  ],
+  "private": false
+}
